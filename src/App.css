@@ -1,0 +1,37 @@
+body {
+  background-color: #121212;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+}
+
+.title {
+  color: #0f0;
+}
+
+.logout-btn, .login-btn {
+  background-color: #ff3333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.logout-btn:hover, .login-btn:hover {
+  background-color: #cc0000;
+}
+
+.loading, .error {
+  color: #ff3333;
+}

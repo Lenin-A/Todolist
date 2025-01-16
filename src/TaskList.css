@@ -1,0 +1,28 @@
+.task-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    background: #222;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .delete-btn {
+    background-color: #ff3333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .delete-btn:hover {
+    background-color: #cc0000;
+  }
+  
